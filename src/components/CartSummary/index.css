@@ -1,0 +1,37 @@
+.summaryContainer {
+  width: 80%;
+}
+@media screen and (min-width: 768px) {
+  .summaryContainer {
+    align-self: flex-end;
+  }
+}
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #616e7c;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  align-self: flex-end;
+}
+.totalPrice {
+  color: #171f46;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.describe {
+  color: #616e7c;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.proceed-btn {
+  background-color: blue;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+}
